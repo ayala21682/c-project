@@ -1,0 +1,11 @@
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\Debug\net8.0\DalFacade.deps.json
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\Debug\net8.0\DalFacade.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\Debug\net8.0\DalFacade.pdb
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\DalFacade.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll

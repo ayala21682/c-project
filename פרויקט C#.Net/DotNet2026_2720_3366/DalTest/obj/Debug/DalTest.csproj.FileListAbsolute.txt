@@ -1,0 +1,16 @@
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalTest.exe
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalTest.deps.json
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalTest.runtimeconfig.json
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalTest.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalTest.pdb
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.Up2Date
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\refint\DalTest.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalTest\obj\Debug\ref\DalTest.dll

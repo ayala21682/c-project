@@ -1,0 +1,13 @@
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalList.deps.json
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalList.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\bin\DalList.pdb
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
+M:\פרויקט C#.Net\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll
