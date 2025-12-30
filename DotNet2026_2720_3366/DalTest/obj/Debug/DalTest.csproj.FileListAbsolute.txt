@@ -1,0 +1,32 @@
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\bin\DalTest.exe
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\bin\DalTest.deps.json
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\bin\DalTest.runtimeconfig.json
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\bin\DalTest.dll
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\bin\DalTest.pdb
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.dll
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\User\Desktop\שעורי בית\cpp\DotNet2026_2720_3366\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\User\Desktop\DotNet2026_2720_3366\bin\DalTest.exe
+C:\Users\User\Desktop\DotNet2026_2720_3366\bin\DalTest.deps.json
+C:\Users\User\Desktop\DotNet2026_2720_3366\bin\DalTest.runtimeconfig.json
+C:\Users\User\Desktop\DotNet2026_2720_3366\bin\DalTest.dll
+C:\Users\User\Desktop\DotNet2026_2720_3366\bin\DalTest.pdb
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.dll
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\User\Desktop\DotNet2026_2720_3366\DalTest\obj\Debug\ref\DalTest.dll
