@@ -3,7 +3,7 @@
 namespace DalApi;
 
 using DO;
-public interface ICustumer
+public interface ICustomer
 {
    public int Create(Customer custumer);
    public Customer? Read(int CustomerId);

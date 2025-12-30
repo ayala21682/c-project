@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace DO
 {
-    public record Product(int ProductId, string ProductName, Enum ProductCategorey, double Price, int Amount)
+ 
+    public record Product(int ProductId, string ProductName, Category ProductCategorey, double Price, int Amount)
     {
-        public Product() : this(0, "", null, 0, 0)
+        public Product() : this(0, "", Category.cat3, 0, 0)
         {
 
         }
