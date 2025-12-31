@@ -27,12 +27,8 @@ public class ProductImplementation:IProduct
     }
     public void Update(Product product)
     {
-        if (DataSource.Products.Exists((pro) => pro.ProductId == product.ProductId))
-        {
-            Delete(product.ProductId);
-            DataSource.Products.Add(product);
-        }
-        
+        Delete(product.ProductId);
+        DataSource.Products.Add(product);
     }
     public void Delete(int ProductId)
     {

@@ -6,9 +6,9 @@ namespace Dal;
 
 internal class DataSource
 {
-    internal static  List<Sale> Sales=new();
-    internal static  List<Product> Products=new();
-    internal static List<Customer> Customers=new();
+    internal static  List<Sale?> Sales=new();
+    internal static  List<Product?> Products=new();
+    internal static List<Customer?> Customers=new();
 
     internal static  class Config
     {

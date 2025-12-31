@@ -7,14 +7,13 @@ namespace DalTest
 {
     internal class Program
     {
-        private static ICustomer s_dalCustomer = new CustomerImplementation();
-        private static ISale s_dalSale = new SaleImplementation();
-        private static IProduct s_dalProduct = new ProductImplementation();
+
+        private static IDal s_dal = new DalList();
         static void Main(string[] args)
         {
             try
             {
-                Initialization.Initialize(s_dalCustomer, s_dalSale, s_dalProduct);
+                Initialization.Initialize( s_dal);
                 MainMenu();
             }
             catch (DalIdAlreadyExistsException diaee)
@@ -41,9 +40,9 @@ namespace DalTest
             int.TryParse(Console.ReadLine(), out choice);
             switch(choice)
             {
-                case 1: SubMenuProduct(s_dalProduct); break;
-                case 2:SubmenuCustomer(s_dalCustomer); break;
-                case 3: SubmenuSale(s_dalSale); break;
+                case 1: SubMenuProduct(s_dal.Product); break;
+                case 2:SubmenuCustomer(s_dal.Customer); break;
+                case 3: SubmenuSale(s_dal.Sale); break;
                 default:break;
 
             }
@@ -69,9 +68,9 @@ namespace DalTest
             switch (choice)
             {
                 case 0: MainMenu(); break;
-                case 1: ReadAllProduct(prod); SubMenuProduct(prod);break;
-                case 2: ReadProduct(prod); SubMenuProduct(prod);break;
-                case 3: DeleteProduct(prod);SubMenuProduct(prod);break;
+                case 1: ReadAll(prod); SubMenuProduct(prod);break;
+                case 2: Read(prod); SubMenuProduct(prod);break;
+                case 3: Delete(prod);SubMenuProduct(prod);break;
                 case 4: UpdateProduct(prod);SubMenuProduct(prod);break;
                 case 5: AddProduct(prod); SubMenuProduct(prod);break;
                 default:break;
@@ -83,12 +82,12 @@ namespace DalTest
         {
             Console.WriteLine("sale");
             int choice = PrintSubMenu("sale");
-            switch (choice)
+                        switch (choice)
             {
                 case 0: MainMenu(); break;
-                case 1: ReadAllSale(sale); SubmenuSale(sale); break;
-                case 2: ReadSale(sale); SubmenuSale(sale); break;
-                case 3: DeleteSale(sale); SubmenuSale(sale); break;
+                case 1: ReadAll(sale); SubmenuSale(sale); break;
+                case 2: Read(sale); SubmenuSale(sale); break;
+                case 3: Delete(sale); SubmenuSale(sale); break;
                 case 4: UpdateSale(sale); SubmenuSale(sale); break;
                 case 5: AddSale(sale); SubmenuSale(sale); break;
                 default: break;
@@ -102,16 +101,15 @@ namespace DalTest
             switch (choice)
             {
                 case 0: MainMenu(); break;
-                case 1: ReadAllCustomer(cust); SubmenuCustomer(cust); break;
-                case 2: ReadCustomer(cust); SubmenuCustomer(cust); break;
-                case 3: DeleteCustomer(cust); SubmenuCustomer(cust); break;
+                case 1: ReadAll(cust); SubmenuCustomer(cust); break;
+                case 2: Read(cust); SubmenuCustomer(cust); break;
+                case 3: Delete(cust); SubmenuCustomer(cust); break;
                 case 4: UpdateCustomer(cust); SubmenuCustomer(cust); break;
                 case 5: AddCustomer(cust); SubmenuCustomer(cust); break;
                 default: break;
 
             }
         }
-
         private static Product AskProduct(int ProductId=0)
         {
             string name;
@@ -191,106 +189,66 @@ namespace DalTest
         }
         private static void AddCustomer(ICustomer cus)
         {
-            Customer customer = AskCustomer();
+            int id;
+            Console.WriteLine("insert customer id");
+            if (!int.TryParse(Console.ReadLine(), out id))
+                id = 0;
+            Customer customer = AskCustomer(id);
             cus.Create(customer);
         }
         private static void UpdateProduct(IProduct pro)
         {
-            Product product = AskProduct();
+            int id;
+            Console.WriteLine("insert productId");
+            if (!int.TryParse(Console.ReadLine(), out id))
+                id = 0;
+            Product product = AskProduct(id);
             pro.Update(product);
 
         }
         private static void UpdateSale(ISale sa)
         {
-            Sale sale = AskSale();
+            int id;
+            Console.WriteLine("insert saleId");
+            if (!int.TryParse(Console.ReadLine(), out id))
+                id = 0;
+            Sale sale = AskSale(id);
             sa.Update(sale);
         }
         private static void UpdateCustomer(ICustomer cus)
-        {
-            Customer customer = AskCustomer();
-            cus.Update(customer);
-        }
-        private static void ReadProduct(IProduct pro)
-        {
-            int id;
-            Console.WriteLine("insert productId");
-            if(!int.TryParse(Console.ReadLine(), out id))
-                id = 0;
-            Console.WriteLine(pro.Read(id));
-        }
-        private static void ReadCustomer(ICustomer cus)
         {
             int id;
             Console.WriteLine("insert customerId");
             if (!int.TryParse(Console.ReadLine(), out id))
                 id = 0;
-            Console.WriteLine(cus.Read(id));
+            Customer customer = AskCustomer(id);
+            cus.Update(customer);
         }
-        private static void ReadSale(ISale sale)
+        private static void Read<T>(ICrud<T>icrud )
         {
             int id;
-            Console.WriteLine("insert saleId");
+            Console.WriteLine("insert Id");
             if (!int.TryParse(Console.ReadLine(), out id))
                 id = 0;
-            Console.WriteLine(sale.Read(id));
+            Console.WriteLine(icrud.Read(id));
         }
-        private static void ReadAllProduct(IProduct pro)
-        {
-            List<Product> product=pro.ReadAll();
-           ReadAllProduct(product);                        
+        private static void ReadAll<T>(ICrud<T> icrud) {
+            List<T> list= icrud.ReadAll();
+           ReadAll(list);
         }
-        private static void ReadAllCustomer(ICustomer cus)
-        {
-            List<Customer> customer=cus.ReadAll();
-            ReadAllCustomer(customer);
-        }
-        private static void ReadAllSale(ISale sal) {
-            List<Sale> sale=sal.ReadAll();
-           ReadAllSale(sale);
-        }
-        private static void ReadAllProduct(List<Product> pro) {
-            foreach (Product p in pro)
+        private static void ReadAll<T>(List<T> icrud) {
+            foreach (T p in icrud)
             {
                 Console.WriteLine(p);
             }
         }
-        private static void ReadAllCustomer(List<Customer> cus)
-        {
-            foreach (Customer c in cus)
-            {
-                Console.WriteLine(c);
-            }
-        }
-        private static void ReadAllSale(List<Sale> sa)
-        {
-            foreach (Sale s in sa)
-            {
-                Console.WriteLine(s);
-            }
-        }
-        private static void DeleteProduct(IProduct product)
+        private static void Delete<T>(ICrud<T> icrud)
         {
             int id;
-            Console.WriteLine("insert ProductId");
+            Console.WriteLine("insert Id");
             if (!int.TryParse(Console.ReadLine(), out id))
                 id = 0;
-            product.Delete(id);
-        }
-        private static void DeleteCustomer(ICustomer customer)
-        {
-            int id;
-            Console.WriteLine("insert CustomerId");
-            if (!int.TryParse(Console.ReadLine(), out id))
-                id = 0;
-            customer.Delete(id);
-        }
-        private static void DeleteSale(ISale sale)
-        {
-            int id;
-            Console.WriteLine("insert SaleId");
-            if (!int.TryParse(Console.ReadLine(), out id))
-                id = 0;
-            sale.Delete(id);
+            icrud.Delete(id);
         } 
     }
 }

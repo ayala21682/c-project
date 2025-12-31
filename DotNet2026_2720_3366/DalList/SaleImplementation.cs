@@ -26,12 +26,8 @@ public class SaleImplementation:ISale
     }
     public void Update(Sale sale)
     {
-        if (DataSource.Sales.Exists((sa) => sa.SaleId == sale.SaleId))
-        {
-            Delete(sale.SaleId);
-            DataSource.Sales.Add(sale);
-        }
-
+         Delete(sale.SaleId);
+         DataSource.Sales.Add(sale);
     }
     public void Delete(int SaleId)
     {

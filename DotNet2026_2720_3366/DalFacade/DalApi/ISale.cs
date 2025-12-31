@@ -2,12 +2,8 @@
 
 namespace DalApi;
 using DO;
-public interface ISale
+public interface ISale : ICrud<Sale>
 {
 
-    int Create(Sale sale);
-    Sale? Read(int SaleId);
-    List<Sale> ReadAll();
-    void Update(Sale sale);
-    void Delete(int SaleId);
 }
+

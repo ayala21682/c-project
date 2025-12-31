@@ -14,7 +14,7 @@ public class CustomerImplementation: ICustomer
             DataSource.Customers.Add(custumer);
             return custumer.CustomerId;
         }
-        throw new DalIdAlreadyExistsException("Customer alread Exist");
+        throw new DalIdAlreadyExistsException("Customer already Exist");
     }
     public Customer? Read(int CustomerId)
     {        
@@ -29,13 +29,8 @@ public class CustomerImplementation: ICustomer
         return customers2;
     }
     public void Update(Customer custumer) {
-        if (DataSource.Customers.Exists((cus) => cus.CustomerId == custumer.CustomerId))
-        {
-            Delete(custumer.CustomerId);
-            DataSource.Customers.Add(custumer);
-        }
-        
-
+       Delete(custumer.CustomerId);
+       DataSource.Customers.Add(custumer);
     }
     public void Delete(int CustomerId) {
         if (DataSource.Customers.Exists((cus) => cus.CustomerId == CustomerId))

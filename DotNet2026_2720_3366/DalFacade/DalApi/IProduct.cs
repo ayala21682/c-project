@@ -7,13 +7,7 @@ using System.Threading.Tasks;
 namespace DalApi;
 
 using DO;
-public interface IProduct
+public interface IProduct : ICrud<Product>
 {
 
-    int Create(Product product);
-    Product? Read(int ProductId);
-    List<Product> ReadAll();
-    void Update(Product product);
-    void Delete(int ProductId);
 }
-
