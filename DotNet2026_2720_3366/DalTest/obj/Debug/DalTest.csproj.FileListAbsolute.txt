@@ -62,3 +62,12 @@ E:\DotNet2026_2720_3366\DalTest\obj\Debug\refint\DalTest.dll
 E:\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb
 E:\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 E:\DotNet2026_2720_3366\DalTest\obj\Debug\ref\DalTest.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\refint\DalTest.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb

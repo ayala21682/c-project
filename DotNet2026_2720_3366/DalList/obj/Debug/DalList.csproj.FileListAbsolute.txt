@@ -50,3 +50,17 @@ E:\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
 E:\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
 E:\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
 E:\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\bin\DalList.deps.json
+E:\C#.NET\c-project\DotNet2026_2720_3366\bin\DalList.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\bin\DalList.pdb
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.sourcelink.json
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
+E:\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll
