@@ -7,8 +7,8 @@ namespace DalTest
 {
     internal class Program
     {
-
-        private static IDal s_dal = new DalList();
+        
+        private static IDal s_dal = new Dal.DalList();
         static void Main(string[] args)
         {
             try
@@ -91,8 +91,7 @@ namespace DalTest
                 case 4: UpdateSale(sale); SubmenuSale(sale); break;
                 case 5: AddSale(sale); SubmenuSale(sale); break;
                 default: break;
-
-            }
+                     }
         }
         private static void SubmenuCustomer(ICustomer cust)
         {
