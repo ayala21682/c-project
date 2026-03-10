@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
       "projectName": "DalFacade",
-      "projectPath": "D:\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNet2026_2720_3366\\DalFacade\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
