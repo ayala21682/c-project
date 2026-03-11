@@ -7,13 +7,16 @@ namespace DalTest
 {
     internal class Program
     {
-        
-        private static IDal s_dal = new Dal.DalList();
+
+        //private static IDal s_dal = new Dal.DalList();
+        private static IDal s_dal =DalXml.Instance;
+
+
         static void Main(string[] args)
         {
             try
             {
-                Initialization.Initialize( s_dal);
+                Initialization.Initialize(s_dal);
                 MainMenu();
             }
             catch (DalIdAlreadyExistsException diaee)

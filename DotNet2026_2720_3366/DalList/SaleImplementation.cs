@@ -8,18 +8,20 @@ public class SaleImplementation : ISale
 {
     public int Create(Sale sale)
     {
-       
+
         //int myId = DataSource.Config.GetSaleId;
         //Sale sale2 = sale with { SaleId = myId };
         //DataSource.Sales.Add(sale2);
         //return sale2.SaleId;
-        if (!DataSource.Sales.Any(s=>s.SaleId==sale.SaleId))
-        {
-            DataSource.Sales.Add(sale);
-            return sale.SaleId;
-        }
+    
+        int newId = DataSource.Config.GetSaleId;
 
-        throw new DalIdAlreadyExistsException("Customer already exists");
+        Sale saleWithId = sale with { SaleId = newId };
+
+        DataSource.Sales.Add(saleWithId);
+
+        return newId;
+    
     }
     public Sale Read(int id)
     {
@@ -45,6 +47,10 @@ public class SaleImplementation : ISale
         if (filter != null)
             query = query.Where(filter);
         return query.ToList();
+    }
+    public List<Sale> ReadAll()
+    {
+        return DataSource.Sales.ToList();
     }
 
     public void Update(Sale sale)

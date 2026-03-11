@@ -50,6 +50,10 @@ public class CustomerImplementation : ICustomer
             query = query.Where(filter);
         return query.ToList();
     }
+    public List<Customer> ReadAll()
+    {
+        return DataSource.Customers.ToList();
+    }
     public void Update(Customer custumer)
     {
         Delete(custumer.CustomerId);

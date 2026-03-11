@@ -63,3 +63,17 @@ D:\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
 D:\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
 D:\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
 D:\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\bin\DalList.deps.json
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\bin\DalList.dll
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\bin\DalList.pdb
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
+C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll

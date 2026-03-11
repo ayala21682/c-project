@@ -9,6 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DalFacade", "DalFacade\DalF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DalList", "DalList\DalList.csproj", "{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalXml", "DalXml\DalXml.csproj", "{6508BFA9-0B67-40ED-88D8-64E5FBC09368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xml", "xml", "{11903F90-C253-4BD6-A6CC-446AB99DDAAC}"
+	ProjectSection(SolutionItems) = preProject
+		xml\customers.xml = xml\customers.xml
+		xml\dal-config.xml = xml\dal-config.xml
+		xml\data-config.xml = xml\data-config.xml
+		xml\products.xml = xml\products.xml
+		xml\sales.xml = xml\sales.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +38,10 @@ Global
 		{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6508BFA9-0B67-40ED-88D8-64E5FBC09368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6508BFA9-0B67-40ED-88D8-64E5FBC09368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6508BFA9-0B67-40ED-88D8-64E5FBC09368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6508BFA9-0B67-40ED-88D8-64E5FBC09368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

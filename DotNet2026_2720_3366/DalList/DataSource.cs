@@ -10,7 +10,7 @@ internal class DataSource
     internal static  List<Product?> Products=new();
     internal static List<Customer?> Customers=new();
 
-    internal static  class Config
+    internal static class Config
     {
        
         internal const int SaleInitialValue=1;

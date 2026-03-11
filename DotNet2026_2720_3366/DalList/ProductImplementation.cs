@@ -8,16 +8,12 @@ public class ProductImplementation : IProduct
 {
     public int Create(Product product)
     {
-        //int myId = DataSource.Config.GetProductId;
-        //Product product2 = product with { ProductId = myId };
-        //DataSource.Products.Add(product2);
-        //return product2.ProductId;
+        int myId = DataSource.Config.GetProductId;
+        Product product2 = product with { ProductId = myId };
+        DataSource.Products.Add(product2);
+        return product2.ProductId;
 
-        if (!DataSource.Products.Any(p=>p.ProductId==product.ProductId))
-        {
-            DataSource.Products.Add(product);
-            return product.ProductId;
-        }
+
 
         throw new DalIdAlreadyExistsException("product already exists");
     }
@@ -46,6 +42,10 @@ public class ProductImplementation : IProduct
         if (filter != null)
             query = query.Where(filter);
         return query.ToList();
+    }
+    public List<Product> ReadAll()
+    {
+        return DataSource.Products.ToList();
     }
     public void Update(Product product)
     {

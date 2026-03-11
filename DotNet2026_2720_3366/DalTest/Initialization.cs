@@ -18,13 +18,14 @@ public static class Initialization
         s_dal.Customer.Create(new Customer(5, "Elior Ben David", null, null));
     }
 
-   public static List<int> productlist=new List<int>();
+   //public static List<int> productlist=new List<int>();
     private static void createProduct()
     {      
-        productlist.Add(s_dal.Product.Create(new Product(5, "chair", Category.cat2, 52.8, 77)));
-        productlist.Add(s_dal.Product.Create(new Product(4, "desk", Category.cat3, 255.8, 7)));
-        productlist.Add(s_dal.Product.Create(new Product(3, "table", Category.cat1, 2212.6668, 8)));
-        productlist.Add(s_dal.Product.Create(new Product(2, "sofa", Category.cat5, 2444.558, 8)));
+        s_dal.Product.Create(new Product(5, "chair", Category.cat2, 52.8, 77));
+       s_dal.Product.Create(new Product(4, "desk", Category.cat3, 255.8, 7));
+        s_dal.Product.Create(new Product(3, "table", Category.cat1, 2212.6668, 8));
+        s_dal.Product.Create(new Product(2, "sofa", Category.cat5, 2444.558, 8));
+
 
         
     }
@@ -34,19 +35,19 @@ public static class Initialization
     private static void createSale()
     {
 
-        s_dal.Sale.Create(new Sale(5, productlist[0], 4, 22.5, false, DateTime.Now, DateTime.Now.AddDays(10)));
-        s_dal.Sale.Create(new Sale(4, productlist[1], 4, 22.5, true, DateTime.Now, DateTime.Now.AddDays(5)));
-        s_dal.Sale.Create(new Sale(3, productlist[2], 4, 22.5, false, DateTime.Now, DateTime.Now.AddDays(60)));
-        s_dal.Sale.Create(new Sale(2, productlist[3], 4, 22.5, true, DateTime.Now, DateTime.Now.AddDays(100)));
+        s_dal.Sale.Create(new Sale(5, s_dal.Product.Read(101).ProductId, 4, 22.5, false, DateTime.Now, DateTime.Now.AddDays(10)));
+        s_dal.Sale.Create(new Sale(4, s_dal.Product.Read(101).ProductId, 4, 22.5, true, DateTime.Now, DateTime.Now.AddDays(5)));
+        s_dal.Sale.Create(new Sale(3, s_dal.Product.Read(102).ProductId, 4, 22.5, false, DateTime.Now, DateTime.Now.AddDays(60)));
+        s_dal.Sale.Create(new Sale(2, s_dal.Product.Read(101).ProductId, 4, 22.5, true, DateTime.Now, DateTime.Now.AddDays(100)));
        
 
     }
     public static void Initialize(IDal s_dalf)
     {
         s_dal = s_dalf;
-        
-        createCustomer();
         createProduct();
         createSale();
+        createCustomer();
+
     }
 }

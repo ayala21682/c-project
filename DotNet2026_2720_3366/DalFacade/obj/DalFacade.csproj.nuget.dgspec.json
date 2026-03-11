@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj": {}
+    "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\פרויקט דוטנט\\c-project\\DotNet2026_2720_3366\\DalFacade\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
