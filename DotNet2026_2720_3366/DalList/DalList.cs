@@ -7,10 +7,16 @@ using System.Threading.Tasks;
 
 namespace Dal
 {
-    public class DalList:IDal
+    internal sealed class DalList:IDal
     {
+       private static readonly DalList instance = new DalList();
+        public static DalList Instance => instance;
         public  IProduct Product=>new ProductImplementation();
         public ICustomer Customer=>new CustomerImplementation();
-        public ISale Sale=>new SaleImplementation();    
+        public ISale Sale=>new SaleImplementation();
+        private DalList()
+        {
+            
+        }
     }
 }

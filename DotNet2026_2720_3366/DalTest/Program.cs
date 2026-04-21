@@ -9,14 +9,14 @@ namespace DalTest
     {
 
         //private static IDal s_dal = new Dal.DalList();
-        private static IDal s_dal =DalXml.Instance;
+        private static IDal s_dal =DalApi.Factory.Get;
 
 
         static void Main(string[] args)
         {
             try
             {
-                Initialization.Initialize(s_dal);
+                Initialization.Initialize();
                 MainMenu();
             }
             catch (DalIdAlreadyExistsException diaee)

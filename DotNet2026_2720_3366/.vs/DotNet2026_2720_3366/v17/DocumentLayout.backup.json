@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalxml\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FFB1215-11B8-4A3A-BD8B-53C68CCDACB0}|BL\\BL.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FFB1215-11B8-4A3A-BD8B-53C68CCDACB0}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{187922EE-3E9B-4F6D-AFDF-A16242F088F2}|DalTest\\DalTest.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{187922EE-3E9B-4F6D-AFDF-A16242F088F2}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalfacade\\dalfacade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalfacade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FFB1215-11B8-4A3A-BD8B-53C68CCDACB0}|BL\\BL.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\bl\\bl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4FFB1215-11B8-4A3A-BD8B-53C68CCDACB0}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\data-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|solutionrelative:xml\\data-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}|DalList\\DalList.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dallist\\dallist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}|DalList\\DalList.csproj|solutionrelative:dallist\\dallist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\products.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|solutionrelative:xml\\products.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalfacade\\dalfacade.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalfacade.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94D6F259-0676-4767-992A-0C51D9B82D4C}|BlTest\\BlTest.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\bltest\\bltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94D6F259-0676-4767-992A-0C51D9B82D4C}|BlTest\\BlTest.csproj|solutionrelative:bltest\\bltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\customers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|solutionrelative:xml\\customers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{94D6F259-0676-4767-992A-0C51D9B82D4C}|BlTest\\BlTest.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\bltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D6F259-0676-4767-992A-0C51D9B82D4C}|BlTest\\BlTest.csproj|solutionrelative:bltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFB1215-11B8-4A3A-BD8B-53C68CCDACB0}|BL\\BL.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFB1215-11B8-4A3A-BD8B-53C68CCDACB0}|BL\\BL.csproj|solutionrelative:bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalfacade\\dalapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalfacade\\dalapi\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\sales.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|solutionrelative:xml\\sales.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\dal-config.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|xml{11903F90-C253-4BD6-A6CC-446AB99DDAAC}|solutionrelative:xml\\dal-config.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalfacade\\do\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55BB040F-355B-4BAD-AE84-82C93ACF5C17}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalxml\\dalxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dalxml\\dalxml.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6508BFA9-0B67-40ED-88D8-64E5FBC09368}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}|DalList\\DalList.csproj|c:\\users\\user\\desktop\\dotnet\\c-project\\dotnet2026_2720_3366\\dallist\\dallist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3D10F644-0D5E-49B3-911C-FC98A4C4CFCE}|DalList\\DalList.csproj|solutionrelative:dallist\\dallist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,37 +62,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DalList",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj",
+              "RelativeDocumentMoniker": "DalList\\DalList.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj",
+              "RelativeToolTip": "DalList\\DalList.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T15:39:55.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DalFacade",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+              "RelativeDocumentMoniker": "DalFacade\\DalFacade.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+              "RelativeToolTip": "DalFacade\\DalFacade.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T15:39:40.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BL",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BL\\BL.csproj",
+              "RelativeDocumentMoniker": "BL\\BL.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BL\\BL.csproj",
+              "RelativeToolTip": "BL\\BL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T15:36:42.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Initialization.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalTest\\Initialization.cs",
-              "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalTest\\Initialization.cs",
-              "RelativeToolTip": "DalTest\\Initialization.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:36:19.628Z",
+              "Title": "DalFacade",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+              "RelativeDocumentMoniker": "DalFacade\\DalFacade.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj",
+              "RelativeToolTip": "DalFacade\\DalFacade.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T15:34:55.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlTest",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BlTest\\BlTest.csproj",
+              "RelativeDocumentMoniker": "BlTest\\BlTest.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BlTest\\BlTest.csproj",
+              "RelativeToolTip": "BlTest\\BlTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T15:31:35.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BL",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BL\\BL.csproj",
+              "RelativeDocumentMoniker": "BL\\BL.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BL\\BL.csproj*",
+              "RelativeToolTip": "BL\\BL.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T15:31:06.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "customers.xml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\customers.xml",
-              "RelativeDocumentMoniker": "xml\\customers.xml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\customers.xml",
-              "RelativeToolTip": "xml\\customers.xml",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BlTest\\Program.cs",
+              "RelativeDocumentMoniker": "BlTest\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BlTest\\Program.cs",
+              "RelativeToolTip": "BlTest\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-11T17:36:13.778Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T15:30:47.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BL\\Class1.cs",
+              "RelativeDocumentMoniker": "BL\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\BL\\Class1.cs",
+              "RelativeToolTip": "BL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T15:25:39.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalApi\\Factory.cs",
+              "RelativeDocumentMoniker": "DalFacade\\DalApi\\Factory.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalApi\\Factory.cs",
+              "RelativeToolTip": "DalFacade\\DalApi\\Factory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T14:11:43.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalApi\\Config.cs",
+              "RelativeDocumentMoniker": "DalFacade\\DalApi\\Config.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalApi\\Config.cs",
+              "RelativeToolTip": "DalFacade\\DalApi\\Config.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T14:03:29.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "sales.xml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\sales.xml",
               "RelativeDocumentMoniker": "xml\\sales.xml",
@@ -105,72 +206,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dal-config.xml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\dal-config.xml",
-              "RelativeDocumentMoniker": "xml\\dal-config.xml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\dal-config.xml",
-              "RelativeToolTip": "xml\\dal-config.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-11T17:36:08.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SaleImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\SaleImplementation.cs",
-              "RelativeDocumentMoniker": "DalXml\\SaleImplementation.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\SaleImplementation.cs",
-              "RelativeToolTip": "DalXml\\SaleImplementation.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:34:14.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\ProductImplementation.cs",
-              "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\ProductImplementation.cs",
-              "RelativeToolTip": "DalXml\\ProductImplementation.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwCcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:33:37.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "data-config.xml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\data-config.xml",
-              "RelativeDocumentMoniker": "xml\\data-config.xml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\data-config.xml",
-              "RelativeToolTip": "xml\\data-config.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-11T17:32:09.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\Config.cs",
               "RelativeDocumentMoniker": "DalXml\\Config.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\Config.cs",
               "RelativeToolTip": "DalXml\\Config.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:29:59.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T17:29:59.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DalXml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.cs",
               "RelativeDocumentMoniker": "DalXml\\DalXml.cs",
@@ -178,58 +226,7 @@
               "RelativeToolTip": "DalXml\\DalXml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T15:48:04.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "products.xml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\products.xml",
-              "RelativeDocumentMoniker": "xml\\products.xml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\xml\\products.xml",
-              "RelativeToolTip": "xml\\products.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-03-10T10:08:52.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DalXml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.csproj",
-              "RelativeDocumentMoniker": "DalXml\\DalXml.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.csproj",
-              "RelativeToolTip": "DalXml\\DalXml.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-10T09:36:15.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DalList",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj",
-              "RelativeDocumentMoniker": "DalList\\DalList.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj",
-              "RelativeToolTip": "DalList\\DalList.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-24T11:32:51.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DO\\Customer.cs",
-              "RelativeDocumentMoniker": "DalFacade\\DO\\Customer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\dotnet\\c-project\\DotNet2026_2720_3366\\DalFacade\\DO\\Customer.cs",
-              "RelativeToolTip": "DalFacade\\DO\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T16:19:59.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T15:48:04.001Z"
             }
           ]
         }

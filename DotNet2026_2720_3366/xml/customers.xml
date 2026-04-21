@@ -57,5 +57,95 @@
   <Customer>
     <CustomerId>5</CustomerId>
     <CustomerName>Elior Ben David</CustomerName>
+    <Address />
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <CustomerId>1</CustomerId>
+    <CustomerName>Alice Cohen</CustomerName>
+    <Address>Tel Aviv</Address>
+    <PhoneNumber>050-1234567</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>2</CustomerId>
+    <CustomerName>David Levi</CustomerName>
+    <Address>Jerusalem</Address>
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <CustomerId>3</CustomerId>
+    <CustomerName>Maya Shapiro</CustomerName>
+    <Address />
+    <PhoneNumber>052-7654321</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>4</CustomerId>
+    <CustomerName>Noam Katz</CustomerName>
+    <Address>Haifa</Address>
+    <PhoneNumber>054-1112233</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>5</CustomerId>
+    <CustomerName>Elior Ben David</CustomerName>
+    <Address />
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <CustomerId>1</CustomerId>
+    <CustomerName>Alice Cohen</CustomerName>
+    <Address>Tel Aviv</Address>
+    <PhoneNumber>050-1234567</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>2</CustomerId>
+    <CustomerName>David Levi</CustomerName>
+    <Address>Jerusalem</Address>
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <CustomerId>3</CustomerId>
+    <CustomerName>Maya Shapiro</CustomerName>
+    <Address />
+    <PhoneNumber>052-7654321</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>4</CustomerId>
+    <CustomerName>Noam Katz</CustomerName>
+    <Address>Haifa</Address>
+    <PhoneNumber>054-1112233</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>5</CustomerId>
+    <CustomerName>Elior Ben David</CustomerName>
+    <Address />
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <CustomerId>1</CustomerId>
+    <CustomerName>Alice Cohen</CustomerName>
+    <Address>Tel Aviv</Address>
+    <PhoneNumber>050-1234567</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>2</CustomerId>
+    <CustomerName>David Levi</CustomerName>
+    <Address>Jerusalem</Address>
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <CustomerId>3</CustomerId>
+    <CustomerName>Maya Shapiro</CustomerName>
+    <Address />
+    <PhoneNumber>052-7654321</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>4</CustomerId>
+    <CustomerName>Noam Katz</CustomerName>
+    <Address>Haifa</Address>
+    <PhoneNumber>054-1112233</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>5</CustomerId>
+    <CustomerName>Elior Ben David</CustomerName>
   </Customer>
 </ArrayOfCustomer>

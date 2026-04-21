@@ -18,7 +18,7 @@ public static class Initialization
         s_dal.Customer.Create(new Customer(5, "Elior Ben David", null, null));
     }
 
-   //public static List<int> productlist=new List<int>();
+  
     private static void createProduct()
     {      
         s_dal.Product.Create(new Product(5, "chair", Category.cat2, 52.8, 77));
@@ -42,9 +42,9 @@ public static class Initialization
        
 
     }
-    public static void Initialize(IDal s_dalf)
+    public static void Initialize()
     {
-        s_dal = s_dalf;
+        s_dal = DalApi.Factory.Get;
         createProduct();
         createSale();
         createCustomer();
