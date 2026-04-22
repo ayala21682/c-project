@@ -77,3 +77,17 @@ C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\Da
 C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
 C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
 C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.sourcelink.json
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalList.deps.json
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalList.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalList.pdb
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll

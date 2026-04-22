@@ -95,3 +95,20 @@ C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\re
 C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb
 C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\User\Desktop\dotnet\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\ref\DalTest.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalTest.exe
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalTest.deps.json
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalTest.runtimeconfig.json
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalTest.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\bin\DalTest.pdb
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\refint\DalTest.dll
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.pdb
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalTest\obj\Debug\ref\DalTest.dll

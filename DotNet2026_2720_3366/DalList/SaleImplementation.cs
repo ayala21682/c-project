@@ -23,15 +23,15 @@ public class SaleImplementation : ISale
         return newId;
     
     }
-    public Sale Read(int id)
+    public Sale? Read(int id)
     {
         if (DataSource.Sales.Exists(sa => sa != null && sa.SaleId == id))
             return DataSource.Sales.Find(sa => sa.SaleId == id);
         else
-            throw new DalIdNotExistsException("Customer is not in the list");
+            throw new DalIdNotExistsException("sale is not in the list");
     }
 
-    public Sale Read(Func<Sale, bool> filter)
+    public Sale? Read(Func<Sale, bool> filter)
     {
         var sale = DataSource.Sales.FirstOrDefault(filter);
 
@@ -41,14 +41,14 @@ public class SaleImplementation : ISale
         return sale;
     }
 
-    public List<Sale> ReadAll(Func<Sale, bool>? filter = null)
+    public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
     {
         var query = DataSource.Sales.AsEnumerable();
         if (filter != null)
             query = query.Where(filter);
         return query.ToList();
     }
-    public List<Sale> ReadAll()
+    public List<Sale?> ReadAll()
     {
         return DataSource.Sales.ToList();
     }
