@@ -91,3 +91,17 @@ E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\
 E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
 E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
 E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll
+M:\project .net\c-project\DotNet2026_2720_3366\bin\DalList.deps.json
+M:\project .net\c-project\DotNet2026_2720_3366\bin\DalList.dll
+M:\project .net\c-project\DotNet2026_2720_3366\bin\DalList.pdb
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.sourcelink.json
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.dll
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\refint\DalList.dll
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\DalList.pdb
+M:\project .net\c-project\DotNet2026_2720_3366\DalList\obj\Debug\ref\DalList.dll

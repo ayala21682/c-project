@@ -77,3 +77,15 @@ E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalFacade\obj\Debu
 E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\refint\DalFacade.dll
 E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.pdb
 E:\תכנות\שנה ב\C#.NET\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\project .net\c-project\DotNet2026_2720_3366\bin\DalFacade.deps.json
+M:\project .net\c-project\DotNet2026_2720_3366\bin\DalFacade.dll
+M:\project .net\c-project\DotNet2026_2720_3366\bin\DalFacade.pdb
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.sourcelink.json
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.dll
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\DalFacade.pdb
+M:\project .net\c-project\DotNet2026_2720_3366\DalFacade\obj\Debug\ref\DalFacade.dll
