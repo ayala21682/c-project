@@ -43,9 +43,9 @@ namespace DalTest
             int.TryParse(Console.ReadLine(), out choice);
             switch(choice)
             {
-                case 1: SubMenuProduct(s_dal.Product); break;
-                case 2:SubmenuCustomer(s_dal.Customer); break;
-                case 3: SubmenuSale(s_dal.Sale); break;
+                case 1: SubMenuProduct(); break;
+                case 2:SubmenuCustomer(); break;
+                case 3: SubmenuSale(); break;
                 default:break;
 
             }
@@ -64,50 +64,50 @@ namespace DalTest
             int.TryParse(Console.ReadLine(), out choice);
             return choice;
         }
-        private static void SubMenuProduct(IProduct prod)
+        private static void SubMenuProduct()
         {
             Console.WriteLine("product");
             int choice = PrintSubMenu("product");
             switch (choice)
             {
                 case 0: MainMenu(); break;
-                case 1: ReadAll(prod); SubMenuProduct(prod);break;
-                case 2: Read(prod); SubMenuProduct(prod);break;
-                case 3: Delete(prod);SubMenuProduct(prod);break;
-                case 4: UpdateProduct(prod);SubMenuProduct(prod);break;
-                case 5: AddProduct(prod); SubMenuProduct(prod);break;
+                case 1: ReadAll<Product>(s_dal.Product); SubMenuProduct();break;
+                case 2: Read<Product>(s_dal.Product); SubMenuProduct();break;
+                case 3: Delete<Product>(s_dal.Product);SubMenuProduct();break;
+                case 4: UpdateProduct(s_dal.Product);SubMenuProduct();break;
+                case 5: AddProduct(s_dal.Product); SubMenuProduct();break;
                 default:break;
               
             }
 
         }
-        private static void SubmenuSale(ISale sale)
+        private static void SubmenuSale()
         {
             Console.WriteLine("sale");
             int choice = PrintSubMenu("sale");
                         switch (choice)
             {
                 case 0: MainMenu(); break;
-                case 1: ReadAll(sale); SubmenuSale(sale); break;
-                case 2: Read(sale); SubmenuSale(sale); break;
-                case 3: Delete(sale); SubmenuSale(sale); break;
-                case 4: UpdateSale(sale); SubmenuSale(sale); break;
-                case 5: AddSale(sale); SubmenuSale(sale); break;
+                case 1: ReadAll<Sale>(s_dal.Sale); SubmenuSale(); break;
+                case 2: Read<Sale>(s_dal.Sale); SubmenuSale(); break;
+                case 3: Delete<Sale>(s_dal.Sale); SubmenuSale(); break;
+                case 4: UpdateSale(s_dal.Sale); SubmenuSale(); break;
+                case 5: AddSale(s_dal.Sale); SubmenuSale(); break;
                 default: break;
                      }
         }
-        private static void SubmenuCustomer(ICustomer cust)
+        private static void SubmenuCustomer()
         {
             Console.WriteLine("customer");
             int choice = PrintSubMenu("customer");
             switch (choice)
             {
                 case 0: MainMenu(); break;
-                case 1: ReadAll(cust); SubmenuCustomer(cust); break;
-                case 2: Read(cust); SubmenuCustomer(cust); break;
-                case 3: Delete(cust); SubmenuCustomer(cust); break;
-                case 4: UpdateCustomer(cust); SubmenuCustomer(cust); break;
-                case 5: AddCustomer(cust); SubmenuCustomer(cust); break;
+                case 1: ReadAll<Customer>(s_dal.Customer); SubmenuCustomer(); break;
+                case 2: Read<Customer>(s_dal.Customer); SubmenuCustomer(); break;
+                case 3: Delete<Customer>(s_dal.Customer); SubmenuCustomer(); break;
+                case 4: UpdateCustomer(s_dal.Customer); SubmenuCustomer(); break;
+                case 5: AddCustomer(s_dal.Customer); SubmenuCustomer(); break;
                 default: break;
 
             }

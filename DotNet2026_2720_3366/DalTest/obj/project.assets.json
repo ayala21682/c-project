@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalTest\\DalTest.csproj",
+      "projectUniqueName": "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalTest\\DalTest.csproj",
       "projectName": "DalTest",
-      "projectPath": "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalTest\\DalTest.csproj",
+      "projectPath": "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalTest\\DalTest.csproj",
       "packagesPath": "C:\\Users\\tamaryunger\\.nuget\\packages\\",
-      "outputPath": "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalTest\\obj\\",
+      "outputPath": "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,14 +97,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj"
+            "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalFacade\\DalFacade.csproj"
             },
-            "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj": {
-              "projectPath": "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj"
+            "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj": {
+              "projectPath": "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalList\\DalList.csproj"
             },
-            "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.csproj": {
-              "projectPath": "M:\\project .net\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.csproj"
+            "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.csproj": {
+              "projectPath": "M:\\הכי חדש\\c-project\\DotNet2026_2720_3366\\DalXml\\DalXml.csproj"
             }
           }
         }
