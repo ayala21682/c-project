@@ -14,5 +14,13 @@ namespace BO
         {
 
         }
+        public override string ToString()
+        {
+            string salesStr = ListOfSales != null && ListOfSales.Any()
+                ? string.Join(", ", ListOfSales.Select(s => s.ToString()))
+                : "None";
+
+            return $"ProductInOrder {{ ProductId = {ProductId}, ProductName = {ProductName}, BasicPrice = {BasicPrice}, AmountInOrder = {AmountInOrder}, TotalPrice = {TotalPrice}, ListOfSales = [{salesStr}] }}";
+        }
     }
 }
