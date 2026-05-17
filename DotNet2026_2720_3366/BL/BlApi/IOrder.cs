@@ -9,10 +9,10 @@ namespace BlApi
 {
     public interface IOrder
     {
-        public List<SaleInProduct> AddProductToOrder(Order order,int ProductId,int Amount);
-        public void CalcTotalPriceForProduct(Order order,ProductInOrder productInOrder);
-        public void CalcTotalPrice(Order order);
+        public List<SaleInProduct> AddProductToOrder(Order order, int ProductId, int Amount);
+        public void CalcTotalPriceForProduct(Order order, ProductInOrder productInOrder);
+        public void CalcTotalPrice(ref Order order);
         public void DoOrder(Order order);
-        public void SearchSaleForProduct(ProductInOrder productInOrder,bool isPrefered);
+        public void SearchSaleForProduct(Order order, ProductInOrder productInOrder, bool isPrefered);
     }
 }
