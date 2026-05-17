@@ -56,7 +56,14 @@ namespace BO
         }
         public static BO.Product ConvertDOProductToBOProduct(this DO.Product product)
         {
-            return new BO.Product(product.ProductId, product.ProductName, product.ProductCategorey, product.Price, product.Amount, new List<BO.SaleInProduct>());
+            return new BO.Product(
+                product.ProductId,
+                product.ProductName,
+                (BO.Category)product.ProductCategorey, // הוספת ההמרה המפורשת כאן
+                product.Price,
+                product.Amount,
+                new List<BO.SaleInProduct>()
+            );
         }
         public static BO.Sale ConvertDOSaleToBOSale(this DO.Sale sale)
         {
@@ -68,7 +75,15 @@ namespace BO
         }
         public static DO.Product ConvertBOProductToDOProduct(this BO.Product product)
         {
-            return new DO.Product(product.ProductId, product.ProductName, product.ProductCategorey, product.Price, product.Amount);
+            return new DO.Product
+            {
+                ProductId = product.ProductId,
+                ProductName = product.ProductName,
+                // המרה מפורשת מ-BO.Category ל-DO.Category
+                ProductCategorey = (DO.Category)product.ProductCategorey,
+                Price = product.Price,
+                Amount = product.Amount
+            };
         }
         public static DO.Sale ConvertBOSaleToDOSale(this BO.Sale sale)
         {
