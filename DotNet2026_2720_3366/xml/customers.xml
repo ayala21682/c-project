@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Customer>
-    <CustomerId>215892720</CustomerId>
-    <CustomerName>אילה דויטש</CustomerName>
-    <Address>רבי יהודה הנשיא 15</Address>
-    <PhoneNumber>0556721682</PhoneNumber>
+    <CustomerId>309876543</CustomerId>
+    <CustomerName>יסמין לוי</CustomerName>
+    <Address>רוטשילד 15, ראשון לציון</Address>
+    <PhoneNumber>0529876543</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>214567890</CustomerId>
+    <CustomerName>דניאל מזרחי</CustomerName>
+    <Address>הנשיא 8, חיפה</Address>
+    <PhoneNumber>0544567890</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>321654987</CustomerId>
+    <CustomerName>שירה אברהם</CustomerName>
+    <Address>יפו 102, ירושלים</Address>
+    <PhoneNumber>0531654987</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>208765432</CustomerId>
+    <CustomerName>נועה ברק</CustomerName>
+    <Address>בן גוריון 23, כפר סבא</Address>
+    <PhoneNumber>0587654321</PhoneNumber>
+  </Customer>
+  <Customer>
+    <CustomerId>201234567</CustomerId>
+    <CustomerName>מיכל כהן</CustomerName>
+    <Address>הרצל 42, תל אביב</Address>
+    <PhoneNumber>0501234567</PhoneNumber>
   </Customer>
 </ArrayOfCustomer>

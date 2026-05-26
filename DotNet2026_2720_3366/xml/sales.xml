@@ -1,12 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSale>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
     <SaleId>1</SaleId>
-    <ProductId>100</ProductId>
+    <ProductId>101</ProductId>
     <RequiredAmount>2</RequiredAmount>
-    <SalePrice>10</SalePrice>
+    <SalePrice>60.00</SalePrice>
     <ForAllCustomers>true</ForAllCustomers>
-    <BeginSale>2026-05-17T23:14:58.331872+03:00</BeginSale>
-    <EndSale>2026-05-17T23:14:58.3839586+03:00</EndSale>
+    <BeginSale>2026-05-26T00:00:00.0000000+03:00</BeginSale>
+    <EndSale>2026-06-10T23:59:59.0000000+03:00</EndSale>
+  </Sale>
+  <Sale>
+    <SaleId>3</SaleId>
+    <ProductId>107</ProductId>
+    <RequiredAmount>2</RequiredAmount>
+    <SalePrice>120.00</SalePrice>
+    <ForAllCustomers>true</ForAllCustomers>
+    <BeginSale>2026-05-26T21:03:41.3076583+03:00</BeginSale>
+    <EndSale>2026-06-30T21:03:41.319707+03:00</EndSale>
+  </Sale>
+  <Sale>
+    <SaleId>4</SaleId>
+    <ProductId>100</ProductId>
+    <RequiredAmount>1</RequiredAmount>
+    <SalePrice>99.00</SalePrice>
+    <ForAllCustomers>true</ForAllCustomers>
+    <BeginSale>2026-05-01T00:00:00.0000000+03:00</BeginSale>
+    <EndSale>2026-06-01T23:59:59.0000000+03:00</EndSale>
+  </Sale>
+  <Sale>
+    <SaleId>5</SaleId>
+    <ProductId>103</ProductId>
+    <RequiredAmount>2</RequiredAmount>
+    <SalePrice>149.90</SalePrice>
+    <ForAllCustomers>true</ForAllCustomers>
+    <BeginSale>2026-05-20T00:00:00.0000000+03:00</BeginSale>
+    <EndSale>2026-06-20T23:59:59.0000000+03:00</EndSale>
+  </Sale>
+  <Sale>
+    <SaleId>6</SaleId>
+    <ProductId>101</ProductId>
+    <RequiredAmount>2</RequiredAmount>
+    <SalePrice>60</SalePrice>
+    <ForAllCustomers>true</ForAllCustomers>
+    <BeginSale>2026-05-18T00:00:00</BeginSale>
+    <EndSale>2026-06-09T23:59:59</EndSale>
+  </Sale>
+  <Sale>
+    <SaleId>9</SaleId>
+    <ProductId>102</ProductId>
+    <RequiredAmount>2</RequiredAmount>
+    <SalePrice>30</SalePrice>
+    <ForAllCustomers>false</ForAllCustomers>
+    <BeginSale>2026-05-26T00:00:00+03:00</BeginSale>
+    <EndSale>2026-06-10T23:59:59+03:00</EndSale>
   </Sale>
 </ArrayOfSale>

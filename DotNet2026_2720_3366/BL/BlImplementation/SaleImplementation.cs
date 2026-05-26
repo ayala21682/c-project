@@ -1,4 +1,5 @@
 ﻿using BO;
+using Dal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,15 @@ namespace BlImplementation
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
 
-        public int Create(Sale item)
+        public int Create(BO.Sale sale)
         {
-            return _dal.Sale.Create(item.ConvertBOSaleToDOSale());
+            var linkedProduct = _dal.Product.Read(sale.ProductId);
+            if (linkedProduct == null)
+            {
+                throw new DalException.DalIdNotExistsException($"שגיאה: לא ניתן ליצור מבצע! מוצר מספר {sale.ProductId} אינו קיים במערכת.");
+            }
+            DO.Sale doSale = Tools.ConvertBOSaleToDOSale(sale);
+            return _dal.Sale.Create(doSale);
         }
 
         public void Delete(int itemId)

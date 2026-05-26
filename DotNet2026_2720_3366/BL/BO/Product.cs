@@ -9,7 +9,7 @@ namespace BO
 {
     public record Product(int ProductId, string ProductName, Category ProductCategorey, double Price, int Amount, List<SaleInProduct> ListOfSales)
     {
-        public Product() : this(0, "", Category.cat3, 0, 0,new List<SaleInProduct>())
+        public Product() : this(0, "", Category.Face, 0, 0,new List<SaleInProduct>())
         {
 
         }

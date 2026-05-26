@@ -4,7 +4,7 @@
     {
         private System.ComponentModel.IContainer components = null;
 
-        // רכיבי הניווט הראשיים
+       
         private System.Windows.Forms.TabControl tabControlManager;
         private System.Windows.Forms.TabPage tabProducts;
         private System.Windows.Forms.TabPage tabCustomers;
@@ -13,7 +13,6 @@
         // --- רכיבי לשונית מוצרים ---
         private System.Windows.Forms.DataGridView dgvProducts;
         private System.Windows.Forms.CheckBox chkInStockOnly;
-        private System.Windows.Forms.TextBox txtProdId;
         private System.Windows.Forms.TextBox txtProdName;
         private System.Windows.Forms.TextBox txtProdPrice;
         private System.Windows.Forms.TextBox txtProdAmount;
@@ -21,7 +20,6 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblPrice;
         private System.Windows.Forms.Label lblAmount;
@@ -43,7 +41,6 @@
 
         // --- רכיבי לשונית מבצעים ---
         private System.Windows.Forms.DataGridView dgvSales;
-        private System.Windows.Forms.TextBox txtSaleId;
         private System.Windows.Forms.TextBox txtSaleProdId;
         private System.Windows.Forms.TextBox txtSaleAmount;
         private System.Windows.Forms.TextBox txtSalePrice;
@@ -53,7 +50,6 @@
         private System.Windows.Forms.Button btnSaleAdd;
         private System.Windows.Forms.Button btnSaleUpdate;
         private System.Windows.Forms.Button btnSaleDelete;
-        private System.Windows.Forms.Label lblSaleId;
         private System.Windows.Forms.Label lblSaleProdId;
         private System.Windows.Forms.Label lblSaleAmount;
         private System.Windows.Forms.Label lblSalePrice;
@@ -73,207 +69,480 @@
 
         private void InitializeComponent()
         {
-            this.tabControlManager = new System.Windows.Forms.TabControl();
-            this.tabProducts = new System.Windows.Forms.TabPage();
-            this.tabCustomers = new System.Windows.Forms.TabPage();
-            this.tabSales = new System.Windows.Forms.TabPage();
-
-            // אתחול מוצרים
-            this.dgvProducts = new System.Windows.Forms.DataGridView();
-            this.chkInStockOnly = new System.Windows.Forms.CheckBox();
-            this.txtProdId = new System.Windows.Forms.TextBox();
-            this.txtProdName = new System.Windows.Forms.TextBox();
-            this.txtProdPrice = new System.Windows.Forms.TextBox();
-            this.txtProdAmount = new System.Windows.Forms.TextBox();
-            this.cmbCategory = new System.Windows.Forms.ComboBox();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.lblId = new System.Windows.Forms.Label();
-            this.lblName = new System.Windows.Forms.Label();
-            this.lblPrice = new System.Windows.Forms.Label();
-            this.lblAmount = new System.Windows.Forms.Label();
-            this.lblCategory = new System.Windows.Forms.Label();
-
-            // אתחול לקוחות
-            this.dgvCustomers = new System.Windows.Forms.DataGridView();
-            this.txtCustId = new System.Windows.Forms.TextBox();
-            this.txtCustName = new System.Windows.Forms.TextBox();
-            this.txtCustAddress = new System.Windows.Forms.TextBox();
-            this.txtCustPhone = new System.Windows.Forms.TextBox();
-            this.btnCustAdd = new System.Windows.Forms.Button();
-            this.btnCustUpdate = new System.Windows.Forms.Button();
-            this.btnCustDelete = new System.Windows.Forms.Button();
-            this.lblCustId = new System.Windows.Forms.Label();
-            this.lblCustName = new System.Windows.Forms.Label();
-            this.lblCustAddress = new System.Windows.Forms.Label();
-            this.lblCustPhone = new System.Windows.Forms.Label();
-
-            // אתחול מבצעים
-            this.dgvSales = new System.Windows.Forms.DataGridView();
-            this.txtSaleId = new System.Windows.Forms.TextBox();
-            this.txtSaleProdId = new System.Windows.Forms.TextBox();
-            this.txtSaleAmount = new System.Windows.Forms.TextBox();
-            this.txtSalePrice = new System.Windows.Forms.TextBox();
-            this.chkSaleAllCustomers = new System.Windows.Forms.CheckBox();
-            this.dtpSaleBegin = new System.Windows.Forms.DateTimePicker();
-            this.dtpSaleEnd = new System.Windows.Forms.DateTimePicker();
-            this.btnSaleAdd = new System.Windows.Forms.Button();
-            this.btnSaleUpdate = new System.Windows.Forms.Button();
-            this.btnSaleDelete = new System.Windows.Forms.Button();
-            this.lblSaleId = new System.Windows.Forms.Label();
-            this.lblSaleProdId = new System.Windows.Forms.Label();
-            this.lblSaleAmount = new System.Windows.Forms.Label();
-            this.lblSalePrice = new System.Windows.Forms.Label();
-            this.lblSaleBegin = new System.Windows.Forms.Label();
-            this.lblSaleEnd = new System.Windows.Forms.Label();
-
-            this.tabControlManager.SuspendLayout();
-            this.tabProducts.SuspendLayout();
-            this.tabCustomers.SuspendLayout();
-            this.tabSales.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSales)).BeginInit();
-            this.SuspendLayout();
-
-            // 
+            tabControlManager = new TabControl();
+            tabProducts = new TabPage();
+            dgvProducts = new DataGridView();
+            chkInStockOnly = new CheckBox();
+            lblName = new Label();
+            txtProdName = new TextBox();
+            lblCategory = new Label();
+            cmbCategory = new ComboBox();
+            lblPrice = new Label();
+            txtProdPrice = new TextBox();
+            lblAmount = new Label();
+            txtProdAmount = new TextBox();
+            btnAdd = new Button();
+            btnUpdate = new Button();
+            btnDelete = new Button();
+            tabCustomers = new TabPage();
+            dgvCustomers = new DataGridView();
+            lblCustId = new Label();
+            txtCustId = new TextBox();
+            lblCustName = new Label();
+            txtCustName = new TextBox();
+            lblCustAddress = new Label();
+            txtCustAddress = new TextBox();
+            lblCustPhone = new Label();
+            txtCustPhone = new TextBox();
+            btnCustAdd = new Button();
+            btnCustUpdate = new Button();
+            btnCustDelete = new Button();
+            tabSales = new TabPage();
+            dgvSales = new DataGridView();
+            lblSaleProdId = new Label();
+            txtSaleProdId = new TextBox();
+            lblSaleAmount = new Label();
+            txtSaleAmount = new TextBox();
+            lblSalePrice = new Label();
+            txtSalePrice = new TextBox();
+            chkSaleAllCustomers = new CheckBox();
+            lblSaleBegin = new Label();
+            dtpSaleBegin = new DateTimePicker();
+            lblSaleEnd = new Label();
+            dtpSaleEnd = new DateTimePicker();
+            btnSaleAdd = new Button();
+            btnSaleUpdate = new Button();
+            btnSaleDelete = new Button();
+            tabControlManager.SuspendLayout();
+            tabProducts.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvProducts).BeginInit();
+            tabCustomers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvCustomers).BeginInit();
+            tabSales.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvSales).BeginInit();
+            SuspendLayout();
+           
             // tabControlManager
+          
+            tabControlManager.Controls.Add(tabProducts);
+            tabControlManager.Controls.Add(tabCustomers);
+            tabControlManager.Controls.Add(tabSales);
+            tabControlManager.Dock = DockStyle.Fill;
+            tabControlManager.Location = new Point(0, 0);
+            tabControlManager.Name = "tabControlManager";
+            tabControlManager.SelectedIndex = 0;
+            tabControlManager.Size = new Size(850, 500);
+            tabControlManager.TabIndex = 0;
+             
+            // tabProducts
+            
+            tabProducts.Controls.Add(dgvProducts);
+            tabProducts.Controls.Add(chkInStockOnly);
+            tabProducts.Controls.Add(lblName);
+            tabProducts.Controls.Add(txtProdName);
+            tabProducts.Controls.Add(lblCategory);
+            tabProducts.Controls.Add(cmbCategory);
+            tabProducts.Controls.Add(lblPrice);
+            tabProducts.Controls.Add(txtProdPrice);
+            tabProducts.Controls.Add(lblAmount);
+            tabProducts.Controls.Add(txtProdAmount);
+            tabProducts.Controls.Add(btnAdd);
+            tabProducts.Controls.Add(btnUpdate);
+            tabProducts.Controls.Add(btnDelete);
+            tabProducts.Location = new Point(4, 29);
+            tabProducts.Name = "tabProducts";
+            tabProducts.Size = new Size(842, 467);
+            tabProducts.TabIndex = 0;
+            tabProducts.Text = "ניהול מוצרים";
+            
+            // dgvProducts
+            
+            dgvProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvProducts.Location = new Point(12, 50);
+            dgvProducts.Name = "dgvProducts";
+            dgvProducts.RowHeadersWidth = 51;
+            dgvProducts.Size = new Size(500, 380);
+            dgvProducts.TabIndex = 0;
+            dgvProducts.SelectionChanged += dgvProducts_SelectionChanged;
+            
+            // chkInStockOnly
+            
+            chkInStockOnly.Location = new Point(12, 12);
+            chkInStockOnly.Name = "chkInStockOnly";
+            chkInStockOnly.Size = new Size(200, 24);
+            chkInStockOnly.TabIndex = 1;
+            chkInStockOnly.Text = "הצג מוצרים במלאי בלבד";
+            chkInStockOnly.CheckedChanged += chkInStockOnly_CheckedChanged;
+            
+            // lblName
+             
+            lblName.Location = new Point(530, 90);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(100, 23);
+            lblName.TabIndex = 4;
+            lblName.Text = "שם מוצר:";
+            
+            // txtProdName
+            
+            txtProdName.Location = new Point(630, 90);
+            txtProdName.Name = "txtProdName";
+            txtProdName.Size = new Size(140, 27);
+            txtProdName.TabIndex = 5;
+            
+            // lblCategory
+           
+            lblCategory.Location = new Point(530, 130);
+            lblCategory.Name = "lblCategory";
+            lblCategory.Size = new Size(100, 23);
+            lblCategory.TabIndex = 6;
+            lblCategory.Text = "קטגוריה:";
+            
+            // cmbCategory
+            
+            cmbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCategory.Location = new Point(630, 130);
+            cmbCategory.Name = "cmbCategory";
+            cmbCategory.Size = new Size(140, 28);
+            cmbCategory.TabIndex = 7;
+            
+            // lblPrice
+            
+            lblPrice.Location = new Point(530, 170);
+            lblPrice.Name = "lblPrice";
+            lblPrice.Size = new Size(100, 23);
+            lblPrice.TabIndex = 8;
+            lblPrice.Text = "מחיר:";
+            
+            // txtProdPrice
+            
+            txtProdPrice.Location = new Point(630, 170);
+            txtProdPrice.Name = "txtProdPrice";
+            txtProdPrice.Size = new Size(140, 27);
+            txtProdPrice.TabIndex = 9;
+             
+            // lblAmount
+            
+            lblAmount.Location = new Point(530, 210);
+            lblAmount.Name = "lblAmount";
+            lblAmount.Size = new Size(100, 23);
+            lblAmount.TabIndex = 10;
+            lblAmount.Text = "כמות מלאי:";
+             
+            // txtProdAmount
+            
+            txtProdAmount.Location = new Point(630, 210);
+            txtProdAmount.Name = "txtProdAmount";
+            txtProdAmount.Size = new Size(140, 27);
+            txtProdAmount.TabIndex = 11;
+            
+            // btnAdd
+             
+            btnAdd.Location = new Point(530, 260);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(110, 40);
+            btnAdd.TabIndex = 12;
+            btnAdd.Text = "הוסף מוצר";
+            btnAdd.Click += btnAdd_Click;
+            
+            // btnUpdate
+             
+            btnUpdate.Location = new Point(660, 260);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(110, 40);
+            btnUpdate.TabIndex = 13;
+            btnUpdate.Text = "עדכן מוצר";
+            btnUpdate.Click += btnUpdate_Click;
+            
+            // btnDelete
+            
+            btnDelete.Location = new Point(530, 320);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(240, 40);
+            btnDelete.TabIndex = 14;
+            btnDelete.Text = "מחק מוצר מסומן";
+            btnDelete.Click += btnDelete_Click;
+
+            // tabCustomers
+       
+            tabCustomers.Controls.Add(dgvCustomers);
+            tabCustomers.Controls.Add(lblCustId);
+            tabCustomers.Controls.Add(txtCustId);
+            tabCustomers.Controls.Add(lblCustName);
+            tabCustomers.Controls.Add(txtCustName);
+            tabCustomers.Controls.Add(lblCustAddress);
+            tabCustomers.Controls.Add(txtCustAddress);
+            tabCustomers.Controls.Add(lblCustPhone);
+            tabCustomers.Controls.Add(txtCustPhone);
+            tabCustomers.Controls.Add(btnCustAdd);
+            tabCustomers.Controls.Add(btnCustUpdate);
+            tabCustomers.Controls.Add(btnCustDelete);
+            tabCustomers.Location = new Point(4, 29);
+            tabCustomers.Name = "tabCustomers";
+            tabCustomers.Size = new Size(842, 467);
+            tabCustomers.TabIndex = 1;
+            tabCustomers.Text = "ניהול לקוחות";
+            
+            // dgvCustomers
+            
+            dgvCustomers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCustomers.Location = new Point(12, 50);
+            dgvCustomers.Name = "dgvCustomers";
+            dgvCustomers.RowHeadersWidth = 51;
+            dgvCustomers.Size = new Size(500, 380);
+            dgvCustomers.TabIndex = 0;
+            dgvCustomers.SelectionChanged += dgvCustomers_SelectionChanged;
+            
+            // lblCustId
+            
+            lblCustId.Location = new Point(530, 50);
+            lblCustId.Name = "lblCustId";
+            lblCustId.Size = new Size(100, 23);
+            lblCustId.TabIndex = 1;
+            lblCustId.Text = "תעודת זהות:";
+          
+            // txtCustId
+           
+            txtCustId.Location = new Point(630, 50);
+            txtCustId.Name = "txtCustId";
+            txtCustId.Size = new Size(140, 27);
+            txtCustId.TabIndex = 2;
+            
+            // lblCustName
+       
+            lblCustName.Location = new Point(530, 90);
+            lblCustName.Name = "lblCustName";
+            lblCustName.Size = new Size(100, 23);
+            lblCustName.TabIndex = 3;
+            lblCustName.Text = "שם מלא:";
+           
+            // txtCustName
+            
+            txtCustName.Location = new Point(630, 90);
+            txtCustName.Name = "txtCustName";
+            txtCustName.Size = new Size(140, 27);
+            txtCustName.TabIndex = 4;
+            
+            // lblCustAddress
+        
+            lblCustAddress.Location = new Point(530, 130);
+            lblCustAddress.Name = "lblCustAddress";
+            lblCustAddress.Size = new Size(100, 23);
+            lblCustAddress.TabIndex = 5;
+            lblCustAddress.Text = "כתובת:";
+            
+            // txtCustAddress
+            
+            txtCustAddress.Location = new Point(630, 130);
+            txtCustAddress.Name = "txtCustAddress";
+            txtCustAddress.Size = new Size(140, 27);
+            txtCustAddress.TabIndex = 6;
+            
+            // lblCustPhone
+             
+            lblCustPhone.Location = new Point(530, 170);
+            lblCustPhone.Name = "lblCustPhone";
+            lblCustPhone.Size = new Size(100, 23);
+            lblCustPhone.TabIndex = 7;
+            lblCustPhone.Text = "טלפון:";
+            
+            // txtCustPhone
+             
+            txtCustPhone.Location = new Point(630, 170);
+            txtCustPhone.Name = "txtCustPhone";
+            txtCustPhone.Size = new Size(140, 27);
+            txtCustPhone.TabIndex = 8;
+            
+            // btnCustAdd
+            
+            btnCustAdd.Location = new Point(530, 220);
+            btnCustAdd.Name = "btnCustAdd";
+            btnCustAdd.Size = new Size(110, 40);
+            btnCustAdd.TabIndex = 9;
+            btnCustAdd.Text = "הוסף לקוח";
+            btnCustAdd.Click += btnCustAdd_Click;
+             
+            // btnCustUpdate
+             
+            btnCustUpdate.Location = new Point(660, 220);
+            btnCustUpdate.Name = "btnCustUpdate";
+            btnCustUpdate.Size = new Size(110, 40);
+            btnCustUpdate.TabIndex = 10;
+            btnCustUpdate.Text = "עדכן לקוח";
+            btnCustUpdate.Click += btnCustUpdate_Click;
+             
+            // btnCustDelete
+             
+            btnCustDelete.Location = new Point(530, 280);
+            btnCustDelete.Name = "btnCustDelete";
+            btnCustDelete.Size = new Size(240, 40);
+            btnCustDelete.TabIndex = 11;
+            btnCustDelete.Text = "מחק לקוח מסומן";
+            btnCustDelete.Click += btnCustDelete_Click;
+             
+            // tabSales
+            
+            tabSales.Controls.Add(dgvSales);
+            tabSales.Controls.Add(lblSaleProdId);
+            tabSales.Controls.Add(txtSaleProdId);
+            tabSales.Controls.Add(lblSaleAmount);
+            tabSales.Controls.Add(txtSaleAmount);
+            tabSales.Controls.Add(lblSalePrice);
+            tabSales.Controls.Add(txtSalePrice);
+            tabSales.Controls.Add(chkSaleAllCustomers);
+            tabSales.Controls.Add(lblSaleBegin);
+            tabSales.Controls.Add(dtpSaleBegin);
+            tabSales.Controls.Add(lblSaleEnd);
+            tabSales.Controls.Add(dtpSaleEnd);
+            tabSales.Controls.Add(btnSaleAdd);
+            tabSales.Controls.Add(btnSaleUpdate);
+            tabSales.Controls.Add(btnSaleDelete);
+            tabSales.Location = new Point(4, 29);
+            tabSales.Name = "tabSales";
+            tabSales.Size = new Size(842, 467);
+            tabSales.TabIndex = 2;
+            tabSales.Text = "ניהול מבצעים";
+             
+            // dgvSales
+             
+            dgvSales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvSales.Location = new Point(12, 50);
+            dgvSales.Name = "dgvSales";
+            dgvSales.RowHeadersWidth = 51;
+            dgvSales.Size = new Size(480, 380);
+            dgvSales.TabIndex = 0;
+            dgvSales.SelectionChanged += dgvSales_SelectionChanged;
+             
+            // lblSaleProdId
+             
+            lblSaleProdId.Location = new Point(500, 90);
+            lblSaleProdId.Name = "lblSaleProdId";
+            lblSaleProdId.Size = new Size(100, 23);
+            lblSaleProdId.TabIndex = 3;
+            lblSaleProdId.Text = "קוד מוצר:";
+             
+            // txtSaleProdId
+
+            txtSaleProdId.Location = new Point(630, 90);
+            txtSaleProdId.Name = "txtSaleProdId";
+            txtSaleProdId.Size = new Size(140, 27);
+            txtSaleProdId.TabIndex = 4;
+             
+            // lblSaleAmount
+             
+            lblSaleAmount.Location = new Point(500, 130);
+            lblSaleAmount.Name = "lblSaleAmount";
+            lblSaleAmount.Size = new Size(100, 23);
+            lblSaleAmount.TabIndex = 5;
+            lblSaleAmount.Text = "כמות נדרשת:";
+            
+            // txtSaleAmount
+            
+            txtSaleAmount.Location = new Point(630, 130);
+            txtSaleAmount.Name = "txtSaleAmount";
+            txtSaleAmount.Size = new Size(140, 27);
+            txtSaleAmount.TabIndex = 6;
+             
+            // lblSalePrice
+             
+            lblSalePrice.Location = new Point(500, 170);
+            lblSalePrice.Name = "lblSalePrice";
+            lblSalePrice.Size = new Size(100, 23);
+            lblSalePrice.TabIndex = 7;
+            lblSalePrice.Text = "מחיר מבצע:";
+             
+            // txtSalePrice
+            
+            txtSalePrice.Location = new Point(630, 170);
+            txtSalePrice.Name = "txtSalePrice";
+            txtSalePrice.Size = new Size(140, 27);
+            txtSalePrice.TabIndex = 8;
+             
+            // chkSaleAllCustomers
+            
+            chkSaleAllCustomers.Location = new Point(630, 205);
+            chkSaleAllCustomers.Name = "chkSaleAllCustomers";
+            chkSaleAllCustomers.Size = new Size(150, 24);
+            chkSaleAllCustomers.TabIndex = 9;
+            chkSaleAllCustomers.Text = "תקף לכל הלקוחות";
             // 
-            this.tabControlManager.Controls.Add(this.tabProducts);
-            this.tabControlManager.Controls.Add(this.tabCustomers);
-            this.tabControlManager.Controls.Add(this.tabSales);
-            this.tabControlManager.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlManager.Location = new System.Drawing.Point(0, 0);
-            this.tabControlManager.Name = "tabControlManager";
-            this.tabControlManager.SelectedIndex = 0;
-            this.tabControlManager.Size = new System.Drawing.Size(850, 500);
-
-            // ==========================================
-            // לשונית מוצרים (tabProducts)
-            // ==========================================
-            this.tabProducts.Text = "ניהול מוצרים";
-            this.dgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProducts.Location = new System.Drawing.Point(12, 50);
-            this.dgvProducts.Size = new System.Drawing.Size(500, 380);
-            this.dgvProducts.SelectionChanged += new System.EventHandler(this.dgvProducts_SelectionChanged);
-
-            this.chkInStockOnly.Location = new System.Drawing.Point(12, 12);
-            this.chkInStockOnly.Size = new System.Drawing.Size(200, 24);
-            this.chkInStockOnly.Text = "הצג מוצרים במלאי בלבד";
-            this.chkInStockOnly.CheckedChanged += new System.EventHandler(this.chkInStockOnly_CheckedChanged);
-
-            this.lblId.Location = new System.Drawing.Point(530, 50); this.lblId.Text = "קוד מוצר:";
-            this.txtProdId.Location = new System.Drawing.Point(630, 50); this.txtProdId.Size = new System.Drawing.Size(140, 22); this.txtProdId.ReadOnly = true;
-
-            this.lblName.Location = new System.Drawing.Point(530, 90); this.lblName.Text = "שם מוצר:";
-            this.txtProdName.Location = new System.Drawing.Point(630, 90); this.txtProdName.Size = new System.Drawing.Size(140, 22);
-
-            this.lblCategory.Location = new System.Drawing.Point(530, 130); this.lblCategory.Text = "קטגוריה:";
-            this.cmbCategory.Location = new System.Drawing.Point(630, 130); this.cmbCategory.Size = new System.Drawing.Size(140, 24);
-            this.cmbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-
-            this.lblPrice.Location = new System.Drawing.Point(530, 170); this.lblPrice.Text = "מחיר:";
-            this.txtProdPrice.Location = new System.Drawing.Point(630, 170); this.txtProdPrice.Size = new System.Drawing.Size(140, 22);
-
-            this.lblAmount.Location = new System.Drawing.Point(530, 210); this.lblAmount.Text = "כמות מלאי:";
-            this.txtProdAmount.Location = new System.Drawing.Point(630, 210); this.txtProdAmount.Size = new System.Drawing.Size(140, 22);
-
-            this.btnAdd.Location = new System.Drawing.Point(530, 260); this.btnAdd.Size = new System.Drawing.Size(110, 40); this.btnAdd.Text = "הוסף מוצר"; this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            this.btnUpdate.Location = new System.Drawing.Point(660, 260); this.btnUpdate.Size = new System.Drawing.Size(110, 40); this.btnUpdate.Text = "עדכן מוצר"; this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            this.btnDelete.Location = new System.Drawing.Point(530, 320); this.btnDelete.Size = new System.Drawing.Size(240, 40); this.btnDelete.Text = "מחק מוצר מסומן"; this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-
-            this.tabProducts.Controls.AddRange(new System.Windows.Forms.Control[] { this.dgvProducts, this.chkInStockOnly, this.lblId, this.txtProdId, this.lblName, this.txtProdName, this.lblCategory, this.cmbCategory, this.lblPrice, this.txtProdPrice, this.lblAmount, this.txtProdAmount, this.btnAdd, this.btnUpdate, this.btnDelete });
-
-            // ==========================================
-            // לשונית לקוחות (tabCustomers)
-            // ==========================================
-            this.tabCustomers.Text = "ניהול לקוחות";
-            this.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCustomers.Location = new System.Drawing.Point(12, 50);
-            this.dgvCustomers.Size = new System.Drawing.Size(500, 380);
-            this.dgvCustomers.SelectionChanged += new System.EventHandler(this.dgvCustomers_SelectionChanged);
-
-            this.lblCustId.Location = new System.Drawing.Point(530, 50); this.lblCustId.Text = "תעודת זהות:";
-            this.txtCustId.Location = new System.Drawing.Point(630, 50); this.txtCustId.Size = new System.Drawing.Size(140, 22);
-
-            this.lblCustName.Location = new System.Drawing.Point(530, 90); this.lblCustName.Text = "שם מלא:";
-            this.txtCustName.Location = new System.Drawing.Point(630, 90); this.txtCustName.Size = new System.Drawing.Size(140, 22);
-
-            this.lblCustAddress.Location = new System.Drawing.Point(530, 130); this.lblCustAddress.Text = "כתובת:";
-            this.txtCustAddress.Location = new System.Drawing.Point(630, 130); this.txtCustAddress.Size = new System.Drawing.Size(140, 22);
-
-            this.lblCustPhone.Location = new System.Drawing.Point(530, 170); this.lblCustPhone.Text = "טלפון:";
-            this.txtCustPhone.Location = new System.Drawing.Point(630, 170); this.txtCustPhone.Size = new System.Drawing.Size(140, 22);
-
-            this.btnCustAdd.Location = new System.Drawing.Point(530, 220); this.btnCustAdd.Size = new System.Drawing.Size(110, 40); this.btnCustAdd.Text = "הוסף לקוח"; this.btnCustAdd.Click += new System.EventHandler(this.btnCustAdd_Click);
-            this.btnCustUpdate.Location = new System.Drawing.Point(660, 220); this.btnCustUpdate.Size = new System.Drawing.Size(110, 40); this.btnCustUpdate.Text = "עדכן לקוח"; this.btnCustUpdate.Click += new System.EventHandler(this.btnCustUpdate_Click);
-            this.btnCustDelete.Location = new System.Drawing.Point(530, 280); this.btnCustDelete.Size = new System.Drawing.Size(240, 40); this.btnCustDelete.Text = "מחק לקוח מסומן"; this.btnCustDelete.Click += new System.EventHandler(this.btnCustDelete_Click);
-
-            this.tabCustomers.Controls.AddRange(new System.Windows.Forms.Control[] { this.dgvCustomers, this.lblCustId, this.txtCustId, this.lblCustName, this.txtCustName, this.lblCustAddress, this.txtCustAddress, this.lblCustPhone, this.txtCustPhone, this.btnCustAdd, this.btnCustUpdate, this.btnCustDelete });
-
-            // ==========================================
-            // לשונית מבצעים (tabSales)
-            // ==========================================
-            this.tabSales.Text = "ניהול מבצעים";
-            this.dgvSales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSales.Location = new System.Drawing.Point(12, 50);
-            this.dgvSales.Size = new System.Drawing.Size(480, 380);
-            this.dgvSales.SelectionChanged += new System.EventHandler(this.dgvSales_SelectionChanged);
-
-            this.lblSaleId.Location = new System.Drawing.Point(500, 50); this.lblSaleId.Text = "קוד מבצע:";
-            this.txtSaleId.Location = new System.Drawing.Point(630, 50); this.txtSaleId.Size = new System.Drawing.Size(140, 22); this.txtSaleId.ReadOnly = true;
-
-            this.lblSaleProdId.Location = new System.Drawing.Point(500, 90); this.lblSaleProdId.Text = "קוד מוצר:";
-            this.txtSaleProdId.Location = new System.Drawing.Point(630, 90); this.txtSaleProdId.Size = new System.Drawing.Size(140, 22);
-
-            this.lblSaleAmount.Location = new System.Drawing.Point(500, 130); this.lblSaleAmount.Text = "כמות נדרשת:";
-            this.txtSaleAmount.Location = new System.Drawing.Point(630, 130); this.txtSaleAmount.Size = new System.Drawing.Size(140, 22);
-
-            this.lblSalePrice.Location = new System.Drawing.Point(500, 170); this.lblSalePrice.Text = "מחיר מבצע:";
-            this.txtSalePrice.Location = new System.Drawing.Point(630, 170); this.txtSalePrice.Size = new System.Drawing.Size(140, 22);
-
-            this.chkSaleAllCustomers.Location = new System.Drawing.Point(630, 205);
-            this.chkSaleAllCustomers.Size = new System.Drawing.Size(150, 24);
-            this.chkSaleAllCustomers.Text = "תקף לכל הלקוחות";
-
-            this.lblSaleBegin.Location = new System.Drawing.Point(500, 240); this.lblSaleBegin.Text = "תאריך התחלה:";
-            this.dtpSaleBegin.Location = new System.Drawing.Point(630, 240); this.dtpSaleBegin.Size = new System.Drawing.Size(140, 22);
-
-            this.lblSaleEnd.Location = new System.Drawing.Point(500, 280); this.lblSaleEnd.Text = "תאריך סיום:";
-            this.dtpSaleEnd.Location = new System.Drawing.Point(630, 280); this.dtpSaleEnd.Size = new System.Drawing.Size(140, 22);
-
-            this.btnSaleAdd.Location = new System.Drawing.Point(500, 330); this.btnSaleAdd.Size = new System.Drawing.Size(100, 40);
-            this.btnSaleAdd.Text = "הוסף מבצע"; this.btnSaleAdd.Click += new System.EventHandler(this.btnSaleAdd_Click);
-            this.btnSaleUpdate.Location = new System.Drawing.Point(610, 330); this.btnSaleUpdate.Size = new System.Drawing.Size(100, 40);
-            this.btnSaleUpdate.Text = "עדכן מבצע"; this.btnSaleUpdate.Click += new System.EventHandler(this.btnSaleUpdate_Click);
-            this.btnSaleDelete.Location = new System.Drawing.Point(720, 330); this.btnSaleDelete.Size = new System.Drawing.Size(100, 40);
-            this.btnSaleDelete.Text = "מחק מבצע"; this.btnSaleDelete.Click += new System.EventHandler(this.btnSaleDelete_Click);
-
-            this.tabSales.Controls.AddRange(new System.Windows.Forms.Control[] { this.dgvSales, this.lblSaleId, this.txtSaleId, this.lblSaleProdId, this.txtSaleProdId, this.lblSaleAmount, this.txtSaleAmount, this.lblSalePrice, this.txtSalePrice, this.chkSaleAllCustomers, this.lblSaleBegin, this.dtpSaleBegin, this.lblSaleEnd, this.dtpSaleEnd, this.btnSaleAdd, this.btnSaleUpdate, this.btnSaleDelete });
-
+            // lblSaleBegin
             // 
+            lblSaleBegin.Location = new Point(500, 240);
+            lblSaleBegin.Name = "lblSaleBegin";
+            lblSaleBegin.Size = new Size(100, 23);
+            lblSaleBegin.TabIndex = 10;
+            lblSaleBegin.Text = "תאריך התחלה:";
+             
+            // dtpSaleBegin
+             
+            dtpSaleBegin.Location = new Point(606, 240);
+            dtpSaleBegin.Name = "dtpSaleBegin";
+            dtpSaleBegin.Size = new Size(228, 27);
+            dtpSaleBegin.TabIndex = 11;
+            
+            // lblSaleEnd
+            
+            lblSaleEnd.Location = new Point(500, 280);
+            lblSaleEnd.Name = "lblSaleEnd";
+            lblSaleEnd.Size = new Size(100, 23);
+            lblSaleEnd.TabIndex = 12;
+            lblSaleEnd.Text = "תאריך סיום:";
+            
+            // dtpSaleEnd
+             
+            dtpSaleEnd.Location = new Point(606, 280);
+            dtpSaleEnd.Name = "dtpSaleEnd";
+            dtpSaleEnd.Size = new Size(228, 27);
+            dtpSaleEnd.TabIndex = 13;
+             
+            // btnSaleAdd
+             
+            btnSaleAdd.Location = new Point(500, 330);
+            btnSaleAdd.Name = "btnSaleAdd";
+            btnSaleAdd.Size = new Size(100, 40);
+            btnSaleAdd.TabIndex = 14;
+            btnSaleAdd.Text = "הוסף מבצע";
+            btnSaleAdd.Click += btnSaleAdd_Click;
+             
+            // btnSaleUpdate
+             
+            btnSaleUpdate.Location = new Point(610, 330);
+            btnSaleUpdate.Name = "btnSaleUpdate";
+            btnSaleUpdate.Size = new Size(100, 40);
+            btnSaleUpdate.TabIndex = 15;
+            btnSaleUpdate.Text = "עדכן מבצע";
+            btnSaleUpdate.Click += btnSaleUpdate_Click;
+             
+            // btnSaleDelete
+             
+            btnSaleDelete.Location = new Point(720, 330);
+            btnSaleDelete.Name = "btnSaleDelete";
+            btnSaleDelete.Size = new Size(100, 40);
+            btnSaleDelete.TabIndex = 16;
+            btnSaleDelete.Text = "מחק מבצע";
+            btnSaleDelete.Click += btnSaleDelete_Click;
+             
             // ProductManagementForm
-            // 
-            this.ClientSize = new System.Drawing.Size(850, 500);
-            this.Controls.Add(this.tabControlManager);
-            this.Name = "ProductManagementForm";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RightToLeftLayout = true;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "מערכת ניהול מקיפה - מנהל";
-            this.Load += new System.EventHandler(this.ProductManagementForm_Load);
-            this.tabControlManager.ResumeLayout(false);
-            this.tabProducts.ResumeLayout(false);
-            this.tabProducts.PerformLayout();
-            this.tabCustomers.ResumeLayout(false);
-            this.tabCustomers.PerformLayout();
-            this.tabSales.ResumeLayout(false);
-            this.tabSales.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSales)).EndInit();
-            this.ResumeLayout(false);
+             
+            ClientSize = new Size(850, 500);
+            Controls.Add(tabControlManager);
+            Name = "ProductManagementForm";
+            RightToLeft = RightToLeft.Yes;
+            RightToLeftLayout = true;
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "מערכת ניהול מקיפה - מנהל";
+            Load += ProductManagementForm_Load;
+            tabControlManager.ResumeLayout(false);
+            tabProducts.ResumeLayout(false);
+            tabProducts.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvProducts).EndInit();
+            tabCustomers.ResumeLayout(false);
+            tabCustomers.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvCustomers).EndInit();
+            tabSales.ResumeLayout(false);
+            tabSales.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvSales).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

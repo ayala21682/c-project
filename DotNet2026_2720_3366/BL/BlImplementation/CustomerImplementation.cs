@@ -1,5 +1,6 @@
 ﻿using BlApi;
 using BO;
+using Dal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,21 @@ namespace BlImplementation
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
 
-        public int Create(Customer item)
+    
+        public int Create(BO.Customer customer)
         {
-            return _dal.Customer.Create(item.ConvertBOCustomerToDOCustomer());
+          
+            if (customer.CustomerId <= 0)
+            {
+                throw new ArgumentException("תעודת זהות חייבת להיות מספר חיובי גדול מ-0.");
+            }
+            var existingCustomer = _dal.Customer.Read(customer.CustomerId);
+            if (existingCustomer != null)
+            {
+                throw new DalException.DalIdAlreadyExistsException($"שגיאה: לקוח עם תעודת זהות {customer.CustomerId} כבר קיים במערכת!");
+            }
+            DO.Customer doCustomer = Tools.ConvertBOCustomerToDOCustomer(customer);
+            return _dal.Customer.Create(doCustomer);
         }
 
         public void Delete(int itemId)

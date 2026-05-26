@@ -28,9 +28,8 @@ namespace UI
             LoadSales();
         }
 
-        // ====================================================================
         // לוגיקת מוצרים (Products)
-        // ====================================================================
+      
         private void LoadProducts()
         {
             try
@@ -38,7 +37,6 @@ namespace UI
                 IEnumerable<BO.Product>? products = _bl.Product.ReadAll();
                 if (products == null) return;
 
-                // סינון קפדני שמוודא שכל איבר ברשימה אינו null
                 if (chkInStockOnly.Checked)
                 {
                     products = products.Where(p => p != null && p.Amount > 0);
@@ -78,7 +76,7 @@ namespace UI
                 BO.Category selectedCategory = (BO.Category)cmbCategory.SelectedItem;
 
                 BO.Product newProduct = new BO.Product(
-                    ProductId: 0,
+                    ProductId: 0, 
                     ProductName: txtProdName.Text,
                     ProductCategorey: selectedCategory,
                     Price: price,
@@ -102,12 +100,25 @@ namespace UI
         {
             try
             {
-                if (!int.TryParse(txtProdId.Text, out int id) ||
+                if (dgvProducts.CurrentRow == null)
+                {
+                    MessageBox.Show("נא לבחור מוצר מהטבלה לצורך עדכון.", "התראה", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                var cellValue = dgvProducts.CurrentRow.Cells["ProductId"].Value;
+                if (cellValue == null || !int.TryParse(cellValue.ToString(), out int id))
+                {
+                    MessageBox.Show("לא ניתן לזהות את מזהה המוצר שנבחר.", "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(txtProdName.Text) ||
                     !double.TryParse(txtProdPrice.Text, out double price) ||
                     !int.TryParse(txtProdAmount.Text, out int amount) ||
                     cmbCategory.SelectedItem == null)
                 {
-                    MessageBox.Show("נא לבחור מוצר תקין מהטבלה ולמלא שדות תקינים לעדכון.", "התראה", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("נא למלא שדות תקינים לעדכון.", "קלט לא תקין", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
@@ -166,7 +177,6 @@ namespace UI
             {
                 try
                 {
-                    txtProdId.Text = dgvProducts.CurrentRow.Cells["ProductId"].Value?.ToString() ?? "";
                     txtProdName.Text = dgvProducts.CurrentRow.Cells["ProductName"].Value?.ToString() ?? "";
                     txtProdPrice.Text = dgvProducts.CurrentRow.Cells["Price"].Value?.ToString() ?? "";
                     txtProdAmount.Text = dgvProducts.CurrentRow.Cells["Amount"].Value?.ToString() ?? "";
@@ -183,16 +193,15 @@ namespace UI
 
         private void ClearProductFields()
         {
-            txtProdId.Clear();
             txtProdName.Clear();
             txtProdPrice.Clear();
             txtProdAmount.Clear();
             if (cmbCategory.Items.Count > 0) cmbCategory.SelectedIndex = 0;
         }
 
-        // ====================================================================
-        // לוגיקת לקוחות (Customers)
-        // ====================================================================
+        
+        // לוגיקת לקוחות (Customers) 
+        
         private void LoadCustomers()
         {
             try
@@ -286,9 +295,7 @@ namespace UI
             txtCustPhone.Clear();
         }
 
-        // ====================================================================
         // לוגיקת מבצעים (Sales)
-        // ====================================================================
         private void LoadSales()
         {
             try
@@ -316,7 +323,7 @@ namespace UI
                 }
 
                 BO.Sale newSale = new BO.Sale(
-                    SaleId: 0,
+                    SaleId: 0, 
                     ProductId: productId,
                     RequiredAmount: amount,
                     SalePrice: salePrice,
@@ -341,8 +348,20 @@ namespace UI
         {
             try
             {
-                if (!int.TryParse(txtSaleId.Text, out int id) ||
-                    !int.TryParse(txtSaleProdId.Text, out int productId) ||
+                if (dgvSales.CurrentRow == null)
+                {
+                    MessageBox.Show("נא לבחור מבצע מהטבלה לצורך עדכון.", "התראה", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                var cellValue = dgvSales.CurrentRow.Cells["SaleId"].Value;
+                if (cellValue == null || !int.TryParse(cellValue.ToString(), out int id))
+                {
+                    MessageBox.Show("לא ניתן לזהות את מזהה המבצע שנבחר.", "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (!int.TryParse(txtSaleProdId.Text, out int productId) ||
                     !int.TryParse(txtSaleAmount.Text, out int amount) ||
                     !double.TryParse(txtSalePrice.Text, out double salePrice))
                 {
@@ -350,7 +369,6 @@ namespace UI
                     return;
                 }
 
-                // הגנה: בדיקה האם המוצר קיים במערכת לפני שיוך המבצע
                 var linkedProduct = _bl.Product.Read(productId);
                 if (linkedProduct == null)
                 {
@@ -392,12 +410,10 @@ namespace UI
 
         private void dgvSales_SelectionChanged(object sender, EventArgs e)
         {
-            // בדיקה שהשורה הנוכחית קיימת ואינה ריקה (מונע קריסה כשהטבלה מתרעננת)
             if (dgvSales.CurrentRow == null || dgvSales.CurrentRow.Index < 0) return;
 
-            try
-            {
-                txtSaleId.Text = dgvSales.CurrentRow.Cells["SaleId"].Value?.ToString() ?? "";
+           
+            
                 txtSaleProdId.Text = dgvSales.CurrentRow.Cells["ProductId"].Value?.ToString() ?? "";
                 txtSaleAmount.Text = dgvSales.CurrentRow.Cells["RequiredAmount"].Value?.ToString() ?? "";
                 txtSalePrice.Text = dgvSales.CurrentRow.Cells["SalePrice"].Value?.ToString() ?? "";
@@ -413,16 +429,12 @@ namespace UI
                     dtpSaleEnd.Value = endDate;
                 else
                     dtpSaleEnd.Value = DateTime.Now;
-            }
-            catch
-            {
-                // מונע קריסות זמניות בזמן מעבר בין שורות
-            }
+            
+           
         }
 
         private void ClearSaleFields()
         {
-            txtSaleId.Clear();
             txtSaleProdId.Clear();
             txtSaleAmount.Clear();
             txtSalePrice.Clear();

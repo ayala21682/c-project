@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
+    <ProductId>100</ProductId>
+    <ProductName>מייקאפ עמיד ל-24 שעות Glam</ProductName>
+    <ProductCategorey>Face</ProductCategorey>
+    <Price>149.9</Price>
+    <Amount>25</Amount>
+  </Product>
+  <Product>
     <ProductId>107</ProductId>
-    <ProductName>סליחה!!!!!!!!!!!!!!</ProductName>
-    <ProductCategorey>cat2</ProductCategorey>
-    <Price>102454</Price>
-    <Amount>1</Amount>
+    <ProductName>פלטת 12 צלליות בגווני ניוד מבריק</ProductName>
+    <ProductCategorey>Eyes</ProductCategorey>
+    <Price>165</Price>
+    <Amount>978</Amount>
+  </Product>
+  <Product>
+    <ProductId>103</ProductId>
+    <ProductName>שפתון מאט לחותי אדום קלאסי</ProductName>
+    <ProductCategorey>Lips</ProductCategorey>
+    <Price>89</Price>
+    <Amount>15</Amount>
+  </Product>
+  <Product>
+    <ProductId>108</ProductId>
+    <ProductName>סרום חומצה היאלורונית לעור פנים זוהר</ProductName>
+    <ProductCategorey>Skincare</ProductCategorey>
+    <Price>199</Price>
+    <Amount>15</Amount>
+  </Product>
+  <Product>
+    <ProductId>110</ProductId>
+    <ProductName>קרם לחות מזין על בסיס מים</ProductName>
+    <ProductCategorey>Skincare</ProductCategorey>
+    <Price>125</Price>
+    <Amount>15</Amount>
+  </Product>
+  <Product>
+    <ProductId>111</ProductId>
+    <ProductName>סבון פנים מקציף לניקוי עמוק</ProductName>
+    <ProductCategorey>Skincare</ProductCategorey>
+    <Price>65</Price>
+    <Amount>15</Amount>
+  </Product>
+  <Product>
+    <ProductId>104</ProductId>
+    <ProductName>סט 5 מברשות עיניים מקצועיות</ProductName>
+    <ProductCategorey>Brushes</ProductCategorey>
+    <Price>120</Price>
+    <Amount>18</Amount>
+  </Product>
+  <Product>
+    <ProductId>105</ProductId>
+    <ProductName>בושם אדליין לאישה 100 מ"ל</ProductName>
+    <ProductCategorey>Perfume</ProductCategorey>
+    <Price>289.9</Price>
+    <Amount>8</Amount>
+  </Product>
+  <Product>
+    <ProductId>101</ProductId>
+    <ProductName>קונסילר כיסוי מלא עמיד במים</ProductName>
+    <ProductCategorey>Face</ProductCategorey>
+    <Price>95</Price>
+    <Amount>27</Amount>
+  </Product>
+  <Product>
+    <ProductId>102</ProductId>
+    <ProductName>מסקרה נפח והארכה שחור פחם</ProductName>
+    <ProductCategorey>Eyes</ProductCategorey>
+    <Price>79.9</Price>
+    <Amount>32</Amount>
   </Product>
 </ArrayOfProduct>
